@@ -53,28 +53,3 @@ class Chatroom{
     }
 
 }
-
-
-// const chatroom = new Chatroom('general','hzq');
-
-// // chatroom.addChat('hello everyone').then(()=>{
-// //     console.log('chat added!')
-// // }).catch((err)=>{
-// //     console.log('error')
-// // });
-
-// chatroom.getChats((data)=>{
-//     console.log(data);
-// });
-// console.log(chatroom.room);
-
-
-// setTimeout(()=>{
-//     chatroom.updateRoom('gaming');
-//     chatroom.updateName('zjl');
-//     console.log(chatroom.room);
-//     chatroom.getChats((data)=>{
-//         console.log(data);
-//     });
-//     chatroom.addChat('hello');
-// },3000);
