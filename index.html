@@ -3,6 +3,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
   <link rel="shortcut icon" href="img/favicon.ico">
@@ -58,7 +59,9 @@
   </div>
   
 
-  <script src="http://cdn.date-fns.org/v1.9.0/date_fns.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous"></script>
+  <!-- <script src="https://cdn.date-fns.org/v1.9.0/date_fns.min.js"></script> -->
   <!-- The core Firebase JS SDK is always required and must be listed first -->
   <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js"></script>
 
@@ -84,8 +87,8 @@
     const db =firebase.firestore();
   </script>
 
-  <script src="scripts/chat.js"></script>
-  <script src="scripts/ui.js"></script>
-  <script src="scripts/app.js"></script>
+  <script  src="scripts/chat.js"></script>
+  <script  src="scripts/ui.js"></script>
+  <script  src="scripts/app.js"></script>
 </body>
 </html>
